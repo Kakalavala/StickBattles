@@ -1,0 +1,52 @@
+arena:
+  bounds:
+    # pos1 (x,y,z) > pos2 (x,y,z)
+    pos1: 'x:302,y:222,z:-323'
+    pos2: 'x:130,y:122,z:-491'
+  center: 'x:208,y:146,z:-408'
+  # max players allowed == total spawnpoints
+  spawn-points:
+    - 'x:228,y:145,z:-408'
+    - 'x:226,y:145,z:-400'
+    - 'x:222,y:145,z:-394'
+    - 'x:216,y:145,z:-390'
+    - 'x:208,y:145,z:-388'
+    - 'x:200,y:145,z:-390'
+    - 'x:194,y:145,z:-394'
+    - 'x:190,y:145,z:-400'
+    - 'x:188,y:145,z:-408'
+    - 'x:190,y:145,z:-416'
+    - 'x:194,y:145,z:-422'
+    - 'x:200,y:145,z:-426'
+    - 'x:208,y:145,z:-428'
+    - 'x:216,y:145,z:-426'
+    - 'x:222,y:145,z:-422'
+    - 'x:226,y:145,z:-416'
+  item-points:
+    - 'x:249,y:145,z:-408'
+    - 'x:208,y:145,z:-384'
+    - 'x:167,y:145,z:-408'
+    - 'x:208,y:145,z:-432'
+  golden-stick-spawn-point: 'x:208,y:146,z:-408'
+  fall-start-y: 200
+lobby:
+  gamemode: survival
+  spawn-point: 'x:213,y:210,z:-317'
+game-settings:
+  world-name: 'spawn'
+  speed-lvl: 5
+  jump-lvl: 2
+  glowing-lvl: 1
+  nightvision-lvl: 0
+  stocks: 3
+  minimum-players: 2
+  win-rewards:
+    base: 300
+    kill: 100
+    winner: 1000
+  useWhitelist: false
+whitelist:
+  - 9385a69d-f668-4aba-a1ca-f1b877a88e6b
+  - af32a076-6104-49f8-ab35-18d4b9f2aa7b
+  - ee3608e2-978b-42f5-a293-f2322c5e85f8
+blacklist: []

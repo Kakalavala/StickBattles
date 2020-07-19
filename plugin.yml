@@ -1,0 +1,12 @@
+main: me.kakalavala.chris.core.Core
+name: StickBattles
+version: 1.6.4
+author: Kakalavala
+load: POSTWORLD
+depend: [Essentials]
+description: Smash Bros. but every character is replaced with an autist wielding a stick.
+
+commands:
+  stickbattles:
+    description: Main StickBattles command.
+    aliases: [stb]
